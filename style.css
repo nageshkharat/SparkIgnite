@@ -1,6 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
+.title {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+   width: 100%;
+   margin: 20px 0;
+}
+
+.title>* {
+   width: min(100%, 900px);
+}
+
+
+
+.title img {
+   height: 500px;
+   width: 500px;
+
+      /* width: min(100%, 150px);
+      height: min(100%, 110px); */
+      object-fit: contain;
+   }
+
+   .title {
+      height: 220px;
+      width: 220px;
+
+      margin-top: 50px;
+      margin-bottom: 0px;
+      /* margin: 20px auto; */
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+
+
+
 
 html,
 body {
@@ -604,6 +644,7 @@ nav .button {
 /* timeline */
 /* ============================================================ */
 
+
 .timeline {
    background-color: #FDF8F7;
    display: flex;
@@ -974,23 +1015,23 @@ nav .button {
    width: 200px;
    border-radius: 100px;
 
-   /* width: min(100%, 150px);
-   height: min(100%, 110px); */
-   object-fit: contain;
-}
+      /* width: min(100%, 150px);
+      height: min(100%, 110px); */
+      object-fit: contain;
+   }
 
-.sponsor {
-   height: 220px;
-   width: 220px;
+   .sponsor {
+      height: 220px;
+      width: 220px;
 
-   margin: 20px auto;
-   border-radius: 50%;
-   box-shadow: 0px 0px 25px rgba(66, 133, 244, 0.3);
+      margin: 20px auto;
+      border-radius: 50%;
+      box-shadow: 0px 0px 25px rgba(66, 133, 244, 0.3);
 
-   display: flex;
-   align-items: center;
-   justify-content: center;
-}
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
 
 /* .nagesh {
    box-shadow: 0px 0px 25px rgba(15, 157, 88, 0.3);
