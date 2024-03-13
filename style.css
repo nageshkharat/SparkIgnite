@@ -597,6 +597,15 @@ nav .button {
 
 /* timeline */
 /* ============================================================ */
+.time img {
+   height: 800px;
+   width: 400px;
+   margin: auto;
+   /* width: min(100%, 150px);
+   height: min(100%, 110px); */
+   object-fit: contain;
+}
+
 .timeline {
    background-color: #FDF8F7;
    display: flex;
@@ -963,8 +972,12 @@ nav .button {
 }
 
 .sponsor img {
-   width: min(100%, 150px);
-   height: min(100%, 110px);
+   height: 200px;
+   width: 200px;
+   border-radius: 100px;
+
+   /* width: min(100%, 150px);
+   height: min(100%, 110px); */
    object-fit: contain;
 }
 
@@ -981,13 +994,34 @@ nav .button {
    justify-content: center;
 }
 
-.sonatrach {
+/* .nagesh {
    box-shadow: 0px 0px 25px rgba(15, 157, 88, 0.3);
-}
+} */
 
-.ifri {
+/* .tushar {
    box-shadow: 0px 0px 25px rgba(255, 0, 0, 0.3);
 }
+.rudrani{
+   box-shadow: 0px 0px 25px rgba(66, 133, 244, 0.3);
+}
+.akshada{
+   box-shadow: 0px 0px 25px rgba(15, 157, 88, 0.3);
+}
+.aboli{
+   box-shadow: 0px 0px 25px rgba(255, 0, 0, 0.3);
+}
+.varad{
+   box-shadow: 0px 0px 25px rgba(66, 133, 244, 0.3);
+}
+.sanskruti{
+   box-shadow: 0px 0px 25px rgba(15, 157, 88, 0.3);
+}
+.aditi{
+   box-shadow: 0px 0px 25px rgba(255, 0, 0, 0.3);
+}
+.rushikesh{
+   box-shadow: 0px 0px 25px rgba(66, 133, 244, 0.3);
+} */
 
 
 
