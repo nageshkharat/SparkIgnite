@@ -111,6 +111,12 @@ img {
 
 /* nav bar */
 /* ============================================================ */
+hat{
+   color: #f8311f;
+}
+mat{
+   color: black;
+}
 .nav-wrapper {
    width: 100%;
    background-color: white;
@@ -1097,7 +1103,19 @@ nav .button {
    width: 32px;
 }
 span{
-   color: rgb(109, 87, 96);
+   color: rgb(209, 189, 129);
+}
+g{
+   color: blue;
+}
+d{
+   color: red;
+}
+s{
+   color: green;
+}
+c{
+   color: yellow;
 }
 footer {
    background-color: #380b3e;
